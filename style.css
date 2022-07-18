@@ -2,7 +2,19 @@
 
 body {
     background-color: #fff8e7;
+}
 
+mark{
+    background-color: pink;
+    opacity: 0.5;
+}
+
+.cards-style{
+    border-radius: 30px;
+    height: 250px;
+    width: 300px;
+    border: 0.5px solid black;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
 }
 
 #line-image {
@@ -53,6 +65,15 @@ select {
     border-radius: 60px;
     font-size: x-large;
     font-weight: bold;
+}
+
+.section-2-links{
+    text-decoration: none;
+    color: grey;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Encode Sans Compressed', sans-serif;
 }
 
 .section-3-img{
@@ -589,6 +610,15 @@ select {
         font-weight: bold;
     }
 
+    .section-2-links{
+        text-decoration: none;
+        color: grey;
+        font-size: small;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
@@ -645,6 +675,15 @@ select {
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
         background-size: 100% 50%;
+    }
+
+    .section-2-links{
+        text-decoration: none;
+        color: grey;
+        font-size: medium;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Encode Sans Compressed', sans-serif;
     }
 }
 
@@ -804,12 +843,20 @@ select {
         padding-bottom: 20px;
     }
 
-
     .btn-style {
         width: 150px;
         border-radius: 60px;
         font-size: x-large;
         font-weight: bold;
+    }
+
+    .section-2-links{
+        text-decoration: none;
+        color: grey;
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Encode Sans Compressed', sans-serif;
     }
 }
 /* text underline & section3-img responsive code */
@@ -942,6 +989,15 @@ select {
         font-weight: bold;
     }
 
+    .section-2-links{
+        text-decoration: none;
+        color: grey;
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
@@ -951,17 +1007,18 @@ select {
     .section-4-img{
         background-image: url('images/feature-text-design.png');
         background-repeat: no-repeat;
-        background-size: 100% 140%;
+        background-size: 100% 100%;
     }
     
     .section-4-pad{
-        padding: 250px 250px 50px 450px;
+        padding: 120px 300px 50px 350px;
         color: white;
-        font-size: large;
+        font-size: medium;
+        
     }
 
     .section-4-btn{
-        font-size: large;
+        font-size: medium;
         border-radius: 50px;
     }
 }
