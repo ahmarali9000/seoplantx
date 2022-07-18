@@ -1,0 +1,967 @@
+@import url('http://fonts.cdnfonts.com/css/encode-sans-compressed');
+
+body {
+    background-color: #fff8e7;
+
+}
+
+#line-image {
+    background-image: url('images/text-line.png');
+    background-repeat: no-repeat;
+    background-position: 63% 40%;
+    background-size: auto 50px;
+
+}
+
+.text-size {
+    font-size: 50px;
+    font-family: 'Encode Sans Compressed', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    background-color: #fff8e7;
+}
+
+.input-style {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 350px;
+}
+
+
+select {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 350px;
+    border-bottom-width: 2px;
+    color: gray;
+    background-color: #fff8e7;
+}
+
+.form-last-input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 845px;
+}
+
+.btn-style {
+    width: 120px;
+    border-radius: 60px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.section-3-img{
+    background-image: url('images/step-by-step.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.section-3-pad{
+    padding-top: 50px;
+    padding-bottom: 400px;
+}
+.section-3-text{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Encode Sans Compressed', sans-serif;
+}
+
+.section-3-btn{
+    border-radius: 60px;
+    padding: 10px;
+    font-family: 'Encode Sans Compressed', sans-serif;
+}
+
+.section-4-img{
+    background-image: url('images/feature-text-design.png');
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+}
+
+.section-4-pad{
+    padding: 250px 250px 50px 450px;
+    color: white;
+}
+
+
+@media (min-width:320px) {
+
+    .text-size {
+        font-size: 25px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 90% 40%;
+        background-size: auto 23px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 230px;
+        font-size: x-small;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 230px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: small;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 235px;
+        font-size: xx-small;
+    }
+
+    .form-padding {
+        padding-right: 1px;
+        padding-left: 1px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding-bottom: 20px;
+    }
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 0px 150px;
+    }
+
+    .section-3-text{
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 5px;
+        font-size: x-small;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
+    .section-4-img{
+        background-image: url('images/feature-text-design.png');
+        background-repeat: no-repeat;
+        background-size: 100% 140%;
+    }
+    
+    .section-4-pad{
+        padding: 150px 60px 50px 110px;
+        color: white;
+        font-size: xx-small;
+    }
+
+    .section-4-btn{
+        font-size: xx-small;
+        border-radius: 50px;
+    }
+}
+/* only text underline responsive code */
+@media (min-width:360px) {
+
+    .text-size {
+        font-size: 25px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 80% 40%;
+        background-size: auto 23px;
+    }
+}
+/* only text underline responsive code */
+@media (min-width:400px) {
+
+    .text-size {
+        font-size: 25px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 77% 40%;
+        background-size: auto 23px;
+    }
+}
+
+@media (min-width:450px) {
+
+    .text-size {
+        font-size: 25px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 71% 40%;
+        background-size: auto 23px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 290px;
+        font-size: small;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 290px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: small;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 285px;
+        font-size: x-small;
+    }
+
+    .form-padding {
+        padding-right: 1px;
+        padding-left: 1px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 120px;
+        border-radius: 60px;
+        font-size: medium;
+        font-weight: bold;
+    }
+   
+}
+/* only text underline responsive code */
+@media (min-width:500px) {
+
+    .text-size {
+        font-size: 30px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 71% 40%;
+        background-size: auto 23px;
+    }
+}
+
+@media (min-width:576px) {
+
+    .text-size {
+        font-size: 35px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 80% 40%;
+        background-size: auto 35px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 230px;
+        font-size: small;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 230px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: small;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 490px;
+        font-size: small;
+    }
+
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+    }
+
+    .section-3-text{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 5px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
+    .section-4-img{
+        background-image: url('images/feature-text-design.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .section-4-pad{
+        padding: 90px 130px 50px 160px;
+        color: white;
+        font-size: xx-small;
+    }
+
+    .section-4-btn{
+        font-size: xx-small;
+        border-radius: 50px;
+    }
+}
+
+@media (min-width:600px) {
+
+    .text-size {
+        font-size: 35px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 80% 40%;
+        background-size: auto 35px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 270px;
+        font-size: small;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 270px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: small;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 550px;
+        font-size: small;
+    }
+
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+/* only text underline responsive code */
+@media (min-width:650px) {
+
+    .text-size {
+        font-size: 35px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 70% 40%;
+        background-size: auto 35px;
+    }
+}
+
+@media (min-width:767px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 80% 40%;
+        background-size: auto 50px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 300px;
+        font-size: medium;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 300px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: medium;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 700px;
+        font-size: large;
+    }
+
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+    }
+
+    .section-3-text{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 15px;
+        font-size: large;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
+    .section-4-img{
+        background-image: url('images/feature-text-design.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .section-4-pad{
+        padding: 90px 180px 50px 200px;
+        color: white;
+        font-size: x-small;
+    }
+
+    .section-4-btn{
+        font-size: x-small;
+        border-radius: 50px;
+    }
+}
+/*  text underline responsive code */
+@media (min-width:900px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 72% 40%;
+        background-size: auto 50px;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+    }
+}
+
+@media (min-width:1000px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 68% 40%;
+        background-size: auto 50px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 300px;
+        font-size: large;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 300px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: large;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 820px;
+        font-size: large;
+    }
+
+    .form-padding {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 100px;
+        padding-bottom: 20px;
+    }
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+    }
+
+    .section-4-img{
+        background-image: url('images/feature-text-design.png');
+        background-repeat: no-repeat;
+        background-size: 100% 140%;
+    }
+    
+    .section-4-pad{
+        padding: 250px 250px 50px 350px;
+        color: white;
+        font-size: medium;
+    }
+
+    .section-4-btn{
+        font-size: large;
+        border-radius: 50px;
+    }
+
+}
+
+@media (min-width:1100px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 67% 40%;
+        background-size: auto 50px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 400px;
+        font-size: x-large;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 400px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: x-large;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 1010px;
+        font-size: x-large;
+    }
+
+    .form-padding {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 100px;
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+/* text underline & section3-img responsive code */
+@media (min-width:1150px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 65% 40%;
+        background-size: auto 50px;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+    }
+}
+/* only text underline responsive code */
+@media (min-width:1200px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 65% 40%;
+        background-size: auto 50px;
+    }
+}
+/* text underline & section3-img responsive code */
+@media (min-width:1250px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        ;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 63% 40%;
+        background-size: auto 50px;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 50% ;
+    }
+}
+
+@media (min-width:1330px) {
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 59% 40%;
+        background-size: auto 50px;
+    }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 330px;
+        font-size: medium;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 330px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: medium;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 770px;
+        font-size: medium;
+    }
+
+    .form-padding {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 60px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .section-3-img{
+        background-image: url('images/step-by-step.png');
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+    }
+
+    .section-4-img{
+        background-image: url('images/feature-text-design.png');
+        background-repeat: no-repeat;
+        background-size: 100% 140%;
+    }
+    
+    .section-4-pad{
+        padding: 250px 250px 50px 450px;
+        color: white;
+        font-size: large;
+    }
+
+    .section-4-btn{
+        font-size: large;
+        border-radius: 50px;
+    }
+}
