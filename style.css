@@ -17,6 +17,12 @@ mark{
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
 }
 
+#form-img{
+    background-image: url('images/background-image-seoplanetx.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 #line-image {
     background-image: url('images/text-line.png');
     background-repeat: no-repeat;
@@ -32,38 +38,67 @@ mark{
 }
 
 input {
-    background-color: #fff8e7;
+    background-color: transparent;
 }
 
 .input-style {
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 350px;
+    width: 200px;
+    font-size: x-small;
 }
-
 
 select {
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 350px;
+    width: 200px;
     border-bottom-width: 2px;
     color: gray;
-    background-color: #fff8e7;
+    font-size: x-small;
+    background-color: transparent;
+}
+
+.form-heading{
+    font-size: x-small;
 }
 
 .form-last-input {
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 845px;
+    width: 440px;
+    font-size: xx-small;
 }
 
+.form-padding {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.form-padding-1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.form-padding-2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
 .btn-style {
-    width: 120px;
+    width: 100px;
     border-radius: 60px;
-    font-size: x-large;
+    font-size: medium;
     font-weight: bold;
 }
 
@@ -129,13 +164,13 @@ select {
 }
 
 .section-4-img{
-    background-image: url('images/feature-text-design.png');
+    background-image: url('images/background-image-seoplanetx-rectangle.png');
     background-repeat: no-repeat;
-    background-size: 100% 140%;
+    background-size: 100% 500px;
 }
 
 .section-4-pad{
-    padding: 250px 250px 50px 450px;
+    padding: 200px 250px;
     color: white;
 }
 
@@ -210,7 +245,6 @@ a{
     .text-size {
         font-size: 25px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
@@ -221,60 +255,82 @@ a{
         background-size: auto 23px;
     }
 
+    #form-img{
+        background-image: none
+    }
+
+    .text-size {
+        font-size: 50px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        font-weight: bold;
+    }
+    
+    input {
+        background-color: transparent;
+    }
+    
     .input-style {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 230px;
-        font-size: x-small;
+        width: 110px;
+        font-size: 7px;
     }
-
+    
     select {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 230px;
+        width: 110px;
         border-bottom-width: 2px;
         color: gray;
-        font-size: small;
+        font-size: 7px;
+        background-color: transparent;
     }
-
+    
+    .form-heading{
+        font-size: 7px;
+    }
+    
     .form-last-input {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 235px;
-        font-size: xx-small;
+        
+        width: 255px;
+        font-size: 6px;
     }
-
+    
     .form-padding {
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 5px;
+        padding-left: 5px;
         padding-bottom: 20px;
     }
-
+    
     .form-padding-1 {
         display: flex;
         align-items: center;
-        justify-content: center;
-        
-        padding-bottom: 20px;
+        justify-content: end;
+        padding-right: 15px;
+        padding-bottom: 10px;
     }
-
+    
     .form-padding-2 {
         display: flex;
         align-items: center;
-        justify-content: center;
-        
-        padding-bottom: 20px;
+        justify-content: start;
+        padding-left: 15px;
+        padding-bottom: 10px;
     }
-
+    
+    
     .btn-style {
-        width: 150px;
+        width: 80px;
         border-radius: 60px;
-        font-size: medium;
+        font-size: small;
         font-weight: bold;
     }
+    
 
     .cards-pg{
         font-size: xx-small;
@@ -321,19 +377,13 @@ a{
     }
 
     .section-4-img{
-        background-image: url('images/feature-text-design.png');
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 140%;
-    }
-
-    .section-4-img{
-        background-image: url('images/feature-text-design.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 220px;
     }
         
     .section-4-pad{
-        padding: 110px 60px 50px 100px;
+        padding: 40px 70px;
         color: white;
         font-size: xx-small;
     }
@@ -342,6 +392,7 @@ a{
         font-size: xx-small;
         border-radius: 50px;
         margin-bottom: 50px;
+        padding: 3px 16px;
     }
 
     .sect-5-addresses{
@@ -422,7 +473,7 @@ a{
    }
     
 }
-/* only text underline responsive code */
+
 @media (min-width:360px) {
 
     .text-size {
@@ -438,6 +489,8 @@ a{
         background-position: 80% 40%;
         background-size: auto 23px;
     }
+
+    
 }
 
 @media (min-width:400px) {
@@ -482,7 +535,6 @@ a{
     .text-size {
         font-size: 25px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
@@ -493,64 +545,9 @@ a{
         background-size: auto 23px;
     }
 
-    .input-style {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 290px;
-        font-size: small;
-    }
-
-    select {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 290px;
-        border-bottom-width: 2px;
-        color: gray;
-        font-size: small;
-    }
-
-    .form-last-input {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 285px;
-        font-size: x-small;
-    }
-
-    .form-padding {
-        padding-right: 1px;
-        padding-left: 1px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        padding-bottom: 20px;
-    }
-
-    .form-padding-2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        padding-bottom: 20px;
-    }
-
-
-    .btn-style {
-        width: 120px;
-        border-radius: 60px;
-        font-size: medium;
-        font-weight: bold;
-    }
    
 }
-/* only text underline responsive code */
+
 @media (min-width:500px) {
 
     .text-size {
@@ -566,6 +563,69 @@ a{
         background-position: 71% 40%;
         background-size: auto 23px;
     }
+
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 150px;
+        font-size: xx-small;
+    }
+    
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 150px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: xx-small;
+        background-color: transparent;
+    }
+    
+    .form-heading{
+        font-size: x-small;
+    }
+    
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        
+        width: 350px;
+        font-size: xx-small;
+    }
+    
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .btn-style {
+        width: 100px;
+        border-radius: 60px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
 }
 
 @media (min-width:576px) {
@@ -584,61 +644,6 @@ a{
         background-size: auto 35px;
     }
 
-    .input-style {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 230px;
-        font-size: small;
-    }
-
-    select {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 230px;
-        border-bottom-width: 2px;
-        color: gray;
-        font-size: small;
-    }
-
-    .form-last-input {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 490px;
-        font-size: small;
-    }
-
-    .form-padding {
-        padding-right: 5px;
-        padding-left: 5px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-1 {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding-right: 15px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-2 {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding-left: 15px;
-        padding-bottom: 20px;
-    }
-
-
-    .btn-style {
-        width: 150px;
-        border-radius: 60px;
-        font-size: x-large;
-        font-weight: bold;
-    }
 
     .cards-pg{
         font-size: small;
@@ -680,13 +685,14 @@ a{
     }
 
     .section-4-img{
-        background-image: url('images/feature-text-design.png');
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 250px;
+        
     }
     
     .section-4-pad{
-        padding: 90px 130px 50px 160px;
+        padding: 80px 120px;
         color: white;
         font-size: xx-small;
     }
@@ -780,7 +786,6 @@ a{
     .text-size {
         font-size: 35px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
@@ -791,30 +796,46 @@ a{
         background-size: auto 35px;
     }
 
+    /* .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 550px;
+        font-size: smaller;
+    }
+
+    .form-heading{
+        font-size: xx-small;
+    }
+
     .input-style {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 270px;
-        font-size: small;
+        width: 260px;
+        font-size: x-small;
     }
 
     select {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 270px;
+        width: 260px;
         border-bottom-width: 2px;
         color: gray;
-        font-size: small;
+        font-size: x-small;
+    }
+
+    .form-heading{
+        font-size: medium;
     }
 
     .form-last-input {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 550px;
-        font-size: small;
+        width: 560px;
+        font-size: smaller;
     }
 
     .form-padding {
@@ -845,9 +866,10 @@ a{
         border-radius: 60px;
         font-size: x-large;
         font-weight: bold;
-    }
+    } */
+
 }
-/* only text underline responsive code */
+
 @media (min-width:650px) {
 
     .text-size {
@@ -863,6 +885,67 @@ a{
         background-position: 70% 40%;
         background-size: auto 35px;
     }
+
+    .form-heading{
+        font-size: smaller;
+    }
+
+     .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 260px;
+        font-size: x-small;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 260px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: smaller;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 600px;
+        font-size: smaller;
+    }
+
+
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 30px;
+        padding-bottom: 5px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    } 
 
     .footer-text-size{
         font-size: xx-small;
@@ -883,21 +966,29 @@ a{
         background-size: auto 50px;
     }
 
+    #form-img{
+        background-image: none
+    }
+
     .input-style {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 300px;
-        font-size: medium;
+        width: 280px;
+        font-size: smaller;
     }
 
     select {
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 300px;
+        width: 280px;
         border-bottom-width: 2px;
         color: gray;
+        font-size: smaller;
+    }
+
+    .form-heading{
         font-size: medium;
     }
 
@@ -905,8 +996,8 @@ a{
         border-left: none;
         border-right: none;
         border-top: none;
-        width: 700px;
-        font-size: large;
+        width: 660px;
+        font-size: smaller;
     }
 
     .form-padding {
@@ -930,6 +1021,7 @@ a{
         padding-left: 50px;
         padding-bottom: 20px;
     }
+
 
     .btn-style {
         width: 150px;
@@ -992,13 +1084,13 @@ a{
     }
 
     .section-4-img{
-        background-image: url('images/feature-text-design.png');
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 200px;
     }
     
     .section-4-pad{
-        padding: 90px 180px 50px 200px;
+        padding: 50px 250px;
         color: white;
         font-size: x-small;
     }
@@ -1109,6 +1201,12 @@ a{
         background-size: 100% 50%;
     }
 
+    #form-img{
+        background-image: url('images/background-image-seoplanetx.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
     .section-2-links{
         text-decoration: none;
         color: grey;
@@ -1210,6 +1308,70 @@ a{
     }
 
 }
+/* form responsive */
+@media (min-width:850px) {
+    
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 280px;
+        font-size: smaller;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 280px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: smaller;
+        background-color: transparent;
+    }
+
+    .form-heading{
+        font-size: medium;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 660px;
+        font-size: smaller;
+    }
+
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
 
 @media (min-width:1000px) {
     .text-size {
@@ -1225,61 +1387,7 @@ a{
         background-size: auto 50px;
     }
 
-    .input-style {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 300px;
-        font-size: large;
-    }
-
-    select {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 300px;
-        border-bottom-width: 2px;
-        color: gray;
-        font-size: large;
-    }
-
-    .form-last-input {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 820px;
-        font-size: large;
-    }
-
-    .form-padding {
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-1 {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding-right: 100px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-2 {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding-left: 100px;
-        padding-bottom: 20px;
-    }
-
-    .btn-style {
-        width: 150px;
-        border-radius: 60px;
-        font-size: x-large;
-        font-weight: bold;
-    }
-
+    
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
@@ -1287,13 +1395,13 @@ a{
     }
 
     .section-4-img{
-        background-image: url('images/feature-text-design.png');
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 90%;
+        background-size: 100% 350px;
     }
     
     .section-4-pad{
-        padding: 70px 250px 50px 350px;
+        padding: 100px 200px;
         color: white;
         font-size: medium;
     }
@@ -1450,61 +1558,7 @@ a{
         background-size: auto 50px;
     }
 
-    .input-style {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 400px;
-        font-size: x-large;
-    }
-
-    select {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 400px;
-        border-bottom-width: 2px;
-        color: gray;
-        font-size: x-large;
-    }
-
-    .form-last-input {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 1010px;
-        font-size: x-large;
-    }
-
-    .form-padding {
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-1 {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding-right: 100px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-2 {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding-left: 100px;
-        padding-bottom: 20px;
-    }
-
-    .btn-style {
-        width: 150px;
-        border-radius: 60px;
-        font-size: x-large;
-        font-weight: bold;
-    }
-
+    
     .section-2-links{
         text-decoration: none;
         color: grey;
@@ -1777,61 +1831,7 @@ a{
         background-size: auto 50px;
     }
 
-    .input-style {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 330px;
-        font-size: medium;
-    }
-
-    select {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 330px;
-        border-bottom-width: 2px;
-        color: gray;
-        font-size: medium;
-    }
-
-    .form-last-input {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 770px;
-        font-size: medium;
-    }
-
-    .form-padding {
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-1 {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding-right: 60px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-2 {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding-left: 60px;
-        padding-bottom: 20px;
-    }
-
-    .btn-style {
-        width: 150px;
-        border-radius: 60px;
-        font-size: x-large;
-        font-weight: bold;
-    }
-
+    
     .section-2-links{
         text-decoration: none;
         color: grey;
@@ -1848,22 +1848,20 @@ a{
     }
 
     .section-4-img{
-        background-image: url('images/feature-text-design.png');
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 400px;
     }
-    
     .section-4-pad{
-        padding: 120px 300px 50px 350px;
+        padding: 150px 250px;
         color: white;
         font-size: medium;
-        
     }
 
     .section-4-btn{
         font-size: medium;
         border-radius: 50px;
-    }
+    } 
 
     .cards-style{
         border-radius: 30px;
@@ -1964,3 +1962,4 @@ a{
         font-size: medium;
     }
 }
+
