@@ -67,6 +67,37 @@ select {
     font-weight: bold;
 }
 
+.wrapper{
+    max-height: 240px;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 100px;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+.wrapper .item{
+    min-width: fit-content;
+    height: 225px;
+    padding: 0px 10px;
+    line-height:110px;
+    text-align: center;
+    margin-right: 5px;
+    
+}
+
+.testi-btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 50px;
+    border-radius: 50px;
+    width: fit-content;
+}
+
 .section-2-links{
     text-decoration: none;
     color: grey;
@@ -265,6 +296,10 @@ a{
         width: 50%;
     }
 
+    .testi-head-size{
+        font-size: x-small;
+    }
+
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
@@ -381,6 +416,11 @@ a{
         font-size:  small;
         font-weight: bold;
     }
+
+   .footer-text-size{
+    font-size: xx-small;
+   }
+    
 }
 /* only text underline responsive code */
 @media (min-width:360px) {
@@ -823,6 +863,10 @@ a{
         background-position: 70% 40%;
         background-size: auto 35px;
     }
+
+    .footer-text-size{
+        font-size: xx-small;
+    }
 }
 
 @media (min-width:767px) {
@@ -912,6 +956,10 @@ a{
 
     .card-img{
         width: 50%;
+    }
+
+    .testi-head-size{
+        font-size: xx-large;
     }
     
 
@@ -1033,6 +1081,10 @@ a{
 
     .sect-5-links-head{
         font-size:  small;
+    }
+
+    .footer-text-size{
+        font-size: x-small;
     }
 }
 
@@ -1319,6 +1371,10 @@ a{
     .sect-5-links-head{
         font-size:  large;
     }
+
+    .footer-text-size{
+        font-size: small;
+    }
 }
 
 @media (min-width:1050px) {
@@ -1525,6 +1581,10 @@ a{
 
     .sect-5-links-head{
         font-size:  large;
+    }
+
+    .footer-text-size{
+        font-size: medium;
     }
 }
 
@@ -1887,9 +1947,7 @@ a{
     }
     
     .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 180px;
+        width: 200px;
     }
 
     .sect-5-links-1{
@@ -1902,4 +1960,7 @@ a{
         font-size: x-large;
     }
     
+    .footer-text-size{
+        font-size: medium;
+    }
 }
