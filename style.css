@@ -11,7 +11,7 @@ mark{
 
 .cards-style{
     border-radius: 30px;
-    height: 250px;
+    height: 275px;
     width: 300px;
     border: 0.5px solid black;
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
@@ -30,12 +30,6 @@ mark{
     background-size: auto 50px;
 
 }
-
-/* .text-size {
-    font-size: 50px;
-    font-family: 'Encode Sans Compressed', sans-serif;
-    font-weight: bold;
-} */
 
 input {
     background-color: transparent;
@@ -253,12 +247,42 @@ a{
         background-position: 90% 40%;
         background-size: auto 20px;
     }
+
+    .aside-text-1{
+        font-size: 9pt;
+        font-weight: 600;
+    }
+
+    .aside-text-2{
+        font-size: 6px;
+    }
+
+    .card-head-text{
+        font-size: x-large;
+    }
+
+
+    .cards-pg{
+        font-size: xx-small;
+    }
+
+    .card-heading{
+        font-size: 9px;
+    }
+
+    .cards-style{
+        border-radius: 30px;
+        height: 240px;
+        width: 300px;
+        border: 0.5px solid black;
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
 }
 
 @media (min-width:320px) {
     
     .text-size {
-        font-size: 10px;
+        font-size: 20px;
         font-family: 'Encode Sans Compressed', sans-serif;
         font-weight: bold;
     }
@@ -340,6 +364,10 @@ a{
         font-weight: bold;
     }
     
+    /* .card-head-text{
+        font-size: small;
+    }
+
 
     .cards-pg{
         font-size: xx-small;
@@ -359,7 +387,7 @@ a{
 
     .card-img{
         width: 50%;
-    }
+    } */
 
     .testi-head-size{
         font-size: x-small;
@@ -498,7 +526,14 @@ a{
         background-size: auto 23px;
     }
 
-    
+    .aside-text-1{
+        font-size: 11pt;
+        font-weight: 600;
+    }
+
+    .aside-text-2{
+        font-size: 7px;
+    }
 }
 
 @media (min-width:400px) {
@@ -527,14 +562,14 @@ a{
 
     .cards-style{
         border-radius: 30px;
-        height: 210px;
-        width: 400px;
+        height: 180px;
+        width: 320px;
         border: 0.5px solid black;
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
     }
 
     .card-img{
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -641,7 +676,6 @@ a{
     .text-size {
         font-size: 35px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
@@ -652,6 +686,18 @@ a{
         background-size: auto 35px;
     }
 
+    .aside-text-1{
+        font-size: 18pt;
+        font-weight: 600;
+    }
+
+    .aside-text-2{
+        font-size: 10px;
+    }
+
+    .card-head-text{
+        font-size: medium;
+    }
 
     .cards-pg{
         font-size: small;
@@ -1038,24 +1084,22 @@ a{
         font-weight: bold;
     }
 
+    .aside-text-1{
+        font-size: 25pt;
+        font-weight: 600;
+    }
+
+    .aside-text-2{
+        font-size: 15px;
+    }
+
+    .card-head-text{
+        font-size: larger;
+    }
+
+
     .cards-pg{
-        font-size: x-small;
-    }
-
-    .card-heading{
-        font-size: 10px;
-    }
-
-    .cards-style{
-        border-radius: 30px;
-        height: 190px;
-        width: 300px;
-        border: 0.5px solid black;
-        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
-    }
-
-    .card-img{
-        width: 50%;
+        font-size: 12px;
     }
 
     .testi-head-size{
@@ -1188,6 +1232,71 @@ a{
     }
 }
 
+/* form responsive */
+@media (min-width:850px) {
+    
+    .input-style {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 280px;
+        font-size: smaller;
+    }
+
+    select {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 280px;
+        border-bottom-width: 2px;
+        color: gray;
+        font-size: smaller;
+        background-color: transparent;
+    }
+
+    .form-heading{
+        font-size: medium;
+    }
+
+    .form-last-input {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 660px;
+        font-size: smaller;
+    }
+
+    .form-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .form-padding-2 {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+
+    .btn-style {
+        width: 150px;
+        border-radius: 60px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+
 @media (min-width:900px) {
     .text-size {
         font-size: 50px;
@@ -1223,6 +1332,11 @@ a{
         justify-content: space-between;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
+
+    .card-head-text{
+        font-size: x-large;
+    }
+
 
     .cards-pg{
         font-size: small;
@@ -1315,70 +1429,6 @@ a{
         font-size:  small;
     }
 
-}
-/* form responsive */
-@media (min-width:850px) {
-    
-    .input-style {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 280px;
-        font-size: smaller;
-    }
-
-    select {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 280px;
-        border-bottom-width: 2px;
-        color: gray;
-        font-size: smaller;
-        background-color: transparent;
-    }
-
-    .form-heading{
-        font-size: medium;
-    }
-
-    .form-last-input {
-        border-left: none;
-        border-right: none;
-        border-top: none;
-        width: 660px;
-        font-size: smaller;
-    }
-
-    .form-padding {
-        padding-right: 5px;
-        padding-left: 5px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-1 {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding-right: 50px;
-        padding-bottom: 20px;
-    }
-
-    .form-padding-2 {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding-left: 50px;
-        padding-bottom: 20px;
-    }
-
-
-    .btn-style {
-        width: 150px;
-        border-radius: 60px;
-        font-size: x-large;
-        font-weight: bold;
-    }
 }
 
 @media (min-width:1000px) {
@@ -1839,7 +1889,6 @@ a{
         background-size: auto 50px;
     }
 
-    
     .section-2-links{
         text-decoration: none;
         color: grey;
