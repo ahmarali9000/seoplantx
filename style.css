@@ -31,11 +31,11 @@ mark{
 
 }
 
-.text-size {
+/* .text-size {
     font-size: 50px;
     font-family: 'Encode Sans Compressed', sans-serif;
     font-weight: bold;
-}
+} */
 
 input {
     background-color: transparent;
@@ -241,9 +241,9 @@ a{
 }
 
 @media (min-width:320px) {
-
+    
     .text-size {
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Encode Sans Compressed', sans-serif;
         font-weight: bold;
     }
@@ -252,17 +252,11 @@ a{
         background-image: url('images/text-line.png');
         background-repeat: no-repeat;
         background-position: 90% 40%;
-        background-size: auto 23px;
+        background-size: auto 20px;
     }
 
     #form-img{
         background-image: none
-    }
-
-    .text-size {
-        font-size: 50px;
-        font-family: 'Encode Sans Compressed', sans-serif;
-        font-weight: bold;
     }
     
     input {
@@ -479,7 +473,6 @@ a{
     .text-size {
         font-size: 25px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
