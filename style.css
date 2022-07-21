@@ -240,6 +240,21 @@ a{
     width: 50%;
 }
 
+@media (min-width:300px) {
+    .text-size {
+        font-size: 15px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+        font-weight: bold;
+    }
+
+    #line-image {
+        background-image: url('images/text-line.png');
+        background-repeat: no-repeat;
+        background-position: 90% 40%;
+        background-size: auto 20px;
+    }
+}
+
 @media (min-width:320px) {
     
     .text-size {
