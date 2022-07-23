@@ -1,0 +1,374 @@
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: stretch;
+    font-size: small;
+}
+
+.sect-5-addresses{
+    font-size: small;
+}
+
+.sect-5-links-head{
+    font-size: medium;
+}
+
+.sect-5-address-head{
+    font-size: medium;
+}
+
+.sect-5-input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 15px;
+    width: 250px;
+}
+
+.sect-5-btn{
+    background-color: rgb(5, 122, 218);
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: -45px;
+}
+
+.sect-5-pad{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.sect-5-links-1{
+    width: fit-content;
+}
+
+.sect-5-links-2{
+    padding: 0px 5px;
+    width: fit-content;
+}
+
+.sect-5-links-3{
+    width: fit-content;
+}
+
+.sect-5-links-4{
+    width: fit-content;
+    padding: 0px 10px;
+}
+
+.sect-5-links-5{
+    width: fit-content;
+    padding: 0px 5px;
+}
+
+.sect-5-links-6{
+    width: fit-content;
+    padding: 0px 10px;
+}
+
+@media (min-width:320px) {
+    /* .sect-5-addresses{
+        font-size: xx-small;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: x-small;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .sect-5-input{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 12px 20px;
+        width: 150px;
+    }
+    
+    .sect-5-btn{
+        background-color: rgb(5, 122, 218);
+        padding: 8px 16px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        margin-left: -50px;
+    }
+
+    .sect-5-links-6{
+        height: 300px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-5{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: fit-content;
+    }
+
+    .sect-5-links-3{
+        padding-left: 0px;
+        padding-right: 0;
+        width: 200px;
+    }
+    
+    .sect-5-links-4{
+        width: 150px;
+    }
+    
+    .sect-5-links-2{
+        padding-left: 0px;
+        padding-right: 0;
+        width: max-content;
+        
+    }
+
+    .sect-5-links-1{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: max-content;
+        margin: 8px;
+    }
+
+    input[type=email]{
+        font-size: xx-small;
+    }
+
+    .sect-5-links-head{
+        font-size:  small;
+        font-weight: bold;
+    } */
+
+}
+
+@media (min-width:576px) {
+    /* .sect-5-addresses{
+        font-size: xx-small;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: xx-small;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .sect-5-input{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 12px 20px;
+        width: 150px;
+    }
+    
+    .sect-5-btn{
+        background-color: rgb(5, 122, 218);
+        padding: 8px 16px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        margin-left: -50px;
+    }
+
+    .sect-5-links-6{
+        height: 500px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-5{
+        padding-left: 0px;
+        padding-right: 15px;
+        width: 150px;
+    }
+
+    .sect-5-links-3{
+        padding-left: 0px;
+        padding-right: 15px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-4{
+        width: 150px;
+    }
+    
+    .sect-5-links-2{
+        padding-left: 0px;
+        padding-right: 0;
+        width: 170px;
+    }
+
+    .sect-5-links-1{
+        padding-left: 0px;
+        padding-right: 0;
+        width: 170px;
+        margin: 0;
+    }
+
+    input[type=email]{
+        font-size: xx-small;
+    }
+
+    .sect-5-links-1{
+        padding-left: 8px;
+        padding-right: 5px;
+        width: 140px;
+        margin: 0px 50px;
+    }
+
+    .sect-5-links-head{
+        font-size:  small;
+    } */
+}
+
+@media screen and (max-width:1050px) {
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .sect-5-addresses{
+        font-size: x-small;
+    }
+
+    .sect-5-address-head{
+        font-size: small;
+    }
+
+    .sect-5-input{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 10px 15px;
+        width: 160px;
+    }
+    
+    .sect-5-btn{
+        background-color: rgb(5, 122, 218);
+        padding: 10px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        margin-left: -45px;
+    }
+
+    .sect-5-links-6{
+        height: 450px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-5{
+        padding-left: 0px;
+        padding-right: 10px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-4{
+        width: fit-content;
+    }
+    
+    .sect-5-links-2{
+        padding-left: 0px;
+        padding-right: 0;
+        width: fit-content;
+    }
+
+    input[type=email]{
+        font-size: smaller;
+    }
+
+    .sect-5-links-3{
+        width: fit-content;
+    }
+
+    .sect-5-links-1{
+        padding-left: 0px;
+        padding-right: 5px;
+        width: fit-content;
+    }
+
+    .sect-5-links-head{
+        font-size:  small;
+    }
+}
+
+@media screen and (max-width:1330px) {
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .sect-5-addresses{
+        font-size: small;
+    }
+
+    .sect-5-address-head{
+        font-size: medium;
+    }
+
+    .sect-5-input{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 10px 15px;
+        width: 190px;
+    }
+    
+    .sect-5-btn{
+        background-color: rgb(5, 122, 218);
+        padding: 10px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        margin-left: -45px;
+    }
+
+    .sect-5-links-6{
+        height: 450px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-5{
+        padding-left: 0px;
+        padding-right: 15px;
+        width: fit-content;
+    }
+    
+    .sect-5-links-4{
+        width: fit-content;
+    }
+    
+    .sect-5-links-2{
+        padding-left: 0px;
+        padding-right: 0;
+        width: fit-content;
+    }
+
+    input[type=email]{
+        font-size: smaller;
+    }
+
+    .sect-5-links-3{
+        width: fit-content;
+    }
+
+    .sect-5-links-1{
+        padding-left: 0px;
+        padding-right: 5px;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .sect-5-links-head{
+        font-size:  medium;
+    }
+}
