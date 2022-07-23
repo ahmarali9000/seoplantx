@@ -42,25 +42,27 @@ a{
 
 .sect-5-links-1{
     width: fit-content;
+    padding: 0px 2px;
 }
 
 .sect-5-links-2{
-    padding: 0px 5px;
+    padding: 0px 2px;
     width: fit-content;
 }
 
 .sect-5-links-3{
     width: fit-content;
+    padding: 0px 2px;
 }
 
 .sect-5-links-4{
     width: fit-content;
-    padding: 0px 10px;
+    padding: 0px 2px;
 }
 
 .sect-5-links-5{
     width: fit-content;
-    padding: 0px 5px;
+    padding: 0px 2px;
 }
 
 .sect-5-links-6{
@@ -225,7 +227,7 @@ a{
 }
 
 @media screen and (max-width:1050px) {
-    a{
+    /* a{
         text-decoration: none;
         color: black;
         font-size: 8px;
@@ -295,7 +297,7 @@ a{
 
     .sect-5-links-head{
         font-size:  small;
-    }
+    } */
 }
 
 @media screen and (max-width:1330px) {
