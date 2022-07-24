@@ -147,7 +147,7 @@ select {
 }
 .section-3-text{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 100;
     font-family: 'Encode Sans Compressed', sans-serif;
 }
 
@@ -168,13 +168,6 @@ select {
     color: white;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-size: medium;
-    display: flex;
-    align-items: stretch;
-}
 
 .hiring-btn{
     background-color: orangered;
@@ -182,52 +175,6 @@ a{
     border-radius: 15px;
     border: none;
     font-size: x-small;
-}
-
-.sect-5-addresses{
-    font-size: medium;
-}
-
-.sect-5-input{
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 50px;
-    padding: 15px;
-    width: 300px;
-}
-
-.sect-5-btn{
-    background-color: rgb(5, 122, 218);
-    padding: 15px 20px;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    margin-left: -50px;
-}
-
-.sect-5-pad{
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-.sect-5-links-6{
-    height: 500px;
-}
-
-.sect-5-links-5{
-    padding-left: 0px;
-    padding-right: 15px;
-    width: 170px;
-}
-
-.sect-5-links-4{
-    width: 150px;
-}
-
-.sect-5-links-2{
-    padding-left: 0px;
-    padding-right: 0;
-    width: 160px;
 }
 
 .card-img{
@@ -364,30 +311,6 @@ a{
         font-weight: bold;
     }
     
-    /* .card-head-text{
-        font-size: small;
-    }
-
-
-    .cards-pg{
-        font-size: xx-small;
-    }
-
-    .card-heading{
-        font-size: 10px;
-    }
-
-    .cards-style{
-        border-radius: 30px;
-        height: 160px;
-        width: 400px;
-        border: 0.5px solid black;
-        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
-    }
-
-    .card-img{
-        width: 50%;
-    } */
 
     .testi-head-size{
         font-size: x-small;
@@ -402,7 +325,7 @@ a{
 
     .section-3-text{
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 100;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
@@ -430,79 +353,6 @@ a{
         border-radius: 50px;
         margin-bottom: 50px;
         padding: 3px 16px;
-    }
-
-    .sect-5-addresses{
-        font-size: xx-small;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: x-small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 12px 20px;
-        width: 150px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 8px 16px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 300px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 5px;
-        padding-right: 5px;
-        width: fit-content;
-    }
-
-    .sect-5-links-3{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 200px;
-    }
-    
-    .sect-5-links-4{
-        width: 150px;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: max-content;
-        
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 0px;
-        width: max-content;
-        margin: 8px;
-    }
-
-    input[type=email]{
-        font-size: xx-small;
-    }
-
-    .sect-5-links-head{
-        font-size:  small;
-        font-weight: bold;
     }
 
    .footer-text-size{
@@ -728,7 +578,7 @@ a{
 
     .section-3-text{
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 100;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
@@ -754,84 +604,6 @@ a{
     .section-4-btn{
         font-size: xx-small;
         border-radius: 50px;
-    }
-
-    .sect-5-addresses{
-        font-size: xx-small;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: xx-small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 12px 20px;
-        width: 150px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 8px 16px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 150px;
-    }
-
-    .sect-5-links-3{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-4{
-        width: 150px;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 170px;
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 170px;
-        margin: 0;
-    }
-
-    input[type=email]{
-        font-size: xx-small;
-    }
-
-    .sect-5-links-1{
-        padding-left: 8px;
-        padding-right: 5px;
-        width: 140px;
-        margin: 0px 50px;
-    }
-
-    .sect-5-links-head{
-        font-size:  small;
     }
 }
 
@@ -1124,7 +896,7 @@ a{
 
     .section-3-text{
         font-size: 30px;
-        font-weight: 600;
+        font-weight: 100;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
@@ -1152,86 +924,10 @@ a{
         border-radius: 50px;
     }
 
-    .sect-5-addresses{
-        font-size: xx-small;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: xx-small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 12px;
-        width: 150px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 8px 18px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 95px;
-    }
-    
-    .sect-5-links-4{
-        width: fit-content;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 100px;
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 90px;
-        margin: 0;
-    }
-
-    .sect-5-links-3{
-        width: fit-content;
-    }
-
-    input[type=email]{
-        font-size: xx-small;
-    }
-
-    .sect-5-links-1{
-        padding-left: 8px;
-        padding-right: 5px;
-        width: 140px;
-    }
-
-    .sect-5-links-head{
-        font-size:  small;
-    }
-
     .footer-text-size{
         font-size: x-small;
     }
 }
-
 /* form responsive */
 @media (min-width:850px) {
     
@@ -1301,7 +997,6 @@ a{
     .text-size {
         font-size: 50px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
@@ -1353,82 +1048,6 @@ a{
         border: 0.5px solid black;
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
     }
-    
-    .sect-5-addresses{
-        font-size: x-small;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: x-small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 17px;
-        width: 180px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 14px 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 125px;
-    }
-    
-    .sect-5-links-4{
-        width: 110px;
-    }
-    
-    .sect-5-links-3{
-        width: fit-content;
-    }
-
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 5px;
-        width: 110px;
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 100px;
-        margin: 0;
-    }
-
-    input[type=email]{
-        font-size: x-small;
-    }
-
-    .sect-5-links-1{
-        padding-left: 8px;
-        padding-right: 5px;
-        width: 170px;
-    }
-
-    .sect-5-links-head{
-        font-size:  small;
-    }
-
 }
 
 @media (min-width:1000px) {
@@ -1469,75 +1088,6 @@ a{
         border-radius: 50px;
     }
 
-    .sect-5-addresses{
-        font-size: x-small;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: smaller;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 200px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 15px 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 150px;
-    }
-    
-    .sect-5-links-4{
-        width: 110px;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 130px;
-    }
-
-    input[type=email]{
-        font-size: smaller;
-    }
-
-    .sect-5-links-3{
-        width: fit-content;
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 5px;
-        width: 170px;
-        margin: 0;
-    }
-
-    .sect-5-links-head{
-        font-size:  large;
-    }
-
     .footer-text-size{
         font-size: small;
     }
@@ -1556,50 +1106,7 @@ a{
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
     }
 
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 210px;
-    }
     
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 15px 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 170px;
-    }
-    
-    .sect-5-links-4{
-        width: 120px;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 140px;
-    }
 }
 
 @media (min-width:1100px) {
@@ -1626,75 +1133,6 @@ a{
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
-    .sect-5-addresses{
-        font-size: small;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 235px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 15px 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-        width: 200px;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 140px;
-    }
-    
-    .sect-5-links-4{
-        width: 130px;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 145px;
-    }
-
-    .sect-5-links-1{
-        padding-left: 2px;
-        padding-right: 5px;
-        width: fit-content;
-        margin: 0;
-    }
-
-    .sect-5-links-6{
-        width: fit-content;
-    }
-
-    .sect-5-links-3{
-        width: fit-content;
-    }
-
-    .sect-5-links-head{
-        font-size:  large;
-    }
-
     .footer-text-size{
         font-size: medium;
     }
@@ -1720,69 +1158,12 @@ a{
         background-repeat: no-repeat;
         background-size: 100% 80%;
     }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: small;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 225px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 15px 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-
-    .sect-5-links-6{
-        height: 500px;
-        width: fit-content;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 150px;
-    }
-    
-    .sect-5-links-4{
-        width: 150px;
-    }
-    
-    .sect-5-links-2{
-        padding-left: 0px;
-        padding-right: 0;
-        width: 140px;
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 5px;
-        width: 170px;
-    }
-
-    .sect-5-links-head{
-        font-size:  large;
-    }
 }
-
+/* footer resp */
 @media (min-width:1200px) {
     .text-size {
         font-size: 50px;
         font-family: 'Encode Sans Compressed', sans-serif;
-        ;
         font-weight: bold;
     }
 
@@ -1793,25 +1174,7 @@ a{
         background-size: auto 50px;
     }
 
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 205px;
-    }
-
-    .sect-5-links-6{
-        width: fit-content;
-    }
-
-    .sect-5-links-3{
-        width: fit-content;
-    }
-
-    .sect-5-addresses{
-        font-size: small;
-    }
+    
 }
 
 @media (min-width:1250px) {
@@ -1833,46 +1196,7 @@ a{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
         background-size: 100% 50% ;
-    }
-
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 255px;
-    }
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 0px;
-        width: 150px;
-        margin: 0px;
-    }
-
-    .sect-5-links-6{
-
-        width: 350px;
-    }
-
-    .sect-5-links-3{
-        width: fit-content;
-    }
-
-    .sect-5-links-2{
-        width: 150px;
-    }
-
-    .sect-5-links-4{
-        width: 150px;
-    }
-
-    .sect-5-links-5{
-        width: fit-content;
-    }
-
-    .sect-5-links-head{
-        font-size: large;
-    }
+    } 
 }
 
 @media (min-width:1330px) {
@@ -1940,13 +1264,6 @@ a{
         width: 50%;
     }
 
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: small;
-        display: flex;
-        align-items: stretch;
-    }
     
     .hiring-btn{
         background-color: orangered;
@@ -1954,65 +1271,6 @@ a{
         border-radius: 15px;
         border: none;
         font-size: x-small;
-    }
-    
-    .sect-5-addresses{
-        font-size: small;
-    }
-    
-    .sect-5-input{
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 50px;
-        padding: 15px;
-        width: 285px;
-    }
-    
-    .sect-5-btn{
-        background-color: rgb(5, 122, 218);
-        padding: 15px 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        margin-left: -50px;
-    }
-    
-    .sect-5-pad{
-        padding-top: 5px;
-        padding-bottom: 10px;
-    }
-    
-    .sect-5-links-6{
-        height: 500px;
-        width: 350px;
-    }
-    
-    .sect-5-links-5{
-        padding-left: 0px;
-        padding-right: 15px;
-        width: 140px;
-    }
-    
-    .sect-5-links-3{
-        width: 170px;
-    }
-
-    .sect-5-links-4{
-        width: 150px;
-    }
-    
-    .sect-5-links-2{
-        width: 200px;
-    }
-
-    .sect-5-links-1{
-        padding-left: 0px;
-        padding-right: 0px;
-        width: 160px;
-    }
-
-    .sect-5-links-head{
-        font-size: x-large;
     }
     
     .footer-text-size{
