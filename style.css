@@ -111,7 +111,7 @@ select {
 .wrapper .item{
     min-width: fit-content;
     height: 225px;
-    padding: 0px 10px;
+    padding: 0px 20px;
     line-height:110px;
     text-align: center;
     margin-right: 5px;
@@ -1209,7 +1209,7 @@ select {
     #line-image {
         background-image: url('images/text-line.png');
         background-repeat: no-repeat;
-        background-position: 59% 40%;
+        background-position: 63% 40%;
         background-size: auto 50px;
     }
 
