@@ -13,8 +13,8 @@ mark{
     border-radius: 30px;
     height: 275px;
     width: 300px;
-    border: 0.5px solid black;
-    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    border: 0.5px groove black;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
 }
 
 #form-img{
@@ -142,8 +142,8 @@ select {
     background-size: 100% auto;
 }
 .section-3-pad{
-    padding-top: 50px;
-    padding-bottom: 400px;
+    padding-top: 100px;
+    padding-bottom: 380px;
 }
 .section-3-text{
     font-size: 30px;
@@ -181,6 +181,11 @@ select {
     width: 50%;
 }
 
+.items-size{
+    height: auto;
+    width: auto;
+}
+
 @media (min-width:300px) {
     .text-size {
         font-size: 15px;
@@ -196,33 +201,51 @@ select {
     }
 
     .aside-text-1{
-        font-size: 9pt;
+        font-size: 13px;
         font-weight: 600;
     }
 
     .aside-text-2{
-        font-size: 6px;
+        font-size: 7px;
+    }
+
+    .card-container{
+        padding: 30px;
     }
 
     .card-head-text{
-        font-size: x-large;
-    }
-
-
-    .cards-pg{
-        font-size: xx-small;
-    }
-
-    .card-heading{
-        font-size: 9px;
+        font-size: small;
     }
 
     .cards-style{
         border-radius: 30px;
-        height: 240px;
-        width: 300px;
+        height: 180px;
+        width: 400px;
         border: 0.5px solid black;
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
+
+    .cards-pg{
+        font-size: xx-small;
+        padding-bottom: 20px;
+    }
+
+    .card-heading-1{
+        font-size: xx-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: xx-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
+    .card-img{
+        width: 50%;
     }
 }
 
@@ -303,6 +326,28 @@ select {
         padding-bottom: 10px;
     }
     
+    .wrapper{
+        max-height: 50%;
+        overflow-x: auto;
+        margin-top: 100px;
+    }
+    
+    .wrapper::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    
+    .wrapper .item{
+        min-width:130px;
+        padding: 0px 0px;
+        line-height:50%;
+        margin-right: 0px;
+    }
+
+    .items-size{
+        height: 130px;
+        width: 120px;
+    }
     
     .btn-style {
         width: 80px;
@@ -316,34 +361,44 @@ select {
         font-size: x-small;
     }
 
+    .section-3-pad{
+        padding-top: 60px;
+        padding-bottom: 300px;
+    }
+
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: 0px 150px;
+        background-position: 0 100px;
     }
 
     .section-3-text{
-        font-size: 12px;
-        font-weight: 100;
+        font-size: 8px;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -5px;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
     .section-3-btn{
         border-radius: 60px;
-        padding: 5px;
-        font-size: x-small;
+        padding: 5px 15px;
+        font-weight: 500;
+        font-size: xx-small;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
+
 
     .section-4-img{
         background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 220px;
+        background-position: fixed;
+        background-size: 100% 90%;
+        padding: 20px 0px;
     }
         
     .section-4-pad{
-        padding: 40px 70px;
+        padding: 40px 50px;
         color: white;
         font-size: xx-small;
     }
@@ -377,13 +432,92 @@ select {
     }
 
     .aside-text-1{
-        font-size: 11pt;
+        font-size: 14px;
         font-weight: 600;
     }
 
     .aside-text-2{
         font-size: 7px;
     }
+
+    .section-3-text{
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -9px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 8px 20px;
+        font-weight: 500;
+        font-size: x-small;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
+    .card-container{
+        padding: 30px;
+    }
+
+    .card-head-text{
+        font-size: larger;
+    }
+
+    .cards-style{
+        border-radius: 30px;
+        height: 180px;
+        width: 400px;
+        border: 0.5px solid black;
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
+
+    .cards-pg{
+        font-size: x-small;
+        padding-bottom: 20px;
+    }
+
+    .card-heading-1{
+        font-size: xx-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: xx-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
+    .card-img{
+        width: 50%;
+    }
+
+    .wrapper{
+        max-height: 50%;
+        overflow-x: auto;
+        margin-top: 100px;
+    }
+    
+    .wrapper::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    
+    .wrapper .item{
+        min-width:130px;
+        padding: 0px 0px;
+        line-height:50%;
+        margin-right: 0px;
+    }
+
+    .items-size{
+        height: 130px;
+        width: 120px;
+    }
+
 }
 
 @media (min-width:400px) {
@@ -402,24 +536,79 @@ select {
         background-size: auto 23px;
     }
 
-    .cards-pg{
-        font-size: small;
+    .section-3-text{
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -9px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 8px 20px;
+        font-weight: 500;
+        font-size: x-small;
+        font-family: 'Encode Sans Compressed', sans-serif;
     }
 
-    .card-heading{
-        font-size: 15px;
+    .card-container{
+        padding: 30px;
+    }
+
+    .card-head-text{
+        font-size: larger;
     }
 
     .cards-style{
         border-radius: 30px;
         height: 180px;
-        width: 320px;
+        width: 400px;
         border: 0.5px solid black;
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
     }
 
+    .cards-pg{
+        font-size: x-small;
+        padding-bottom: 40px;
+    }
+
+    .card-heading-1{
+        font-size: xx-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: xx-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
     .card-img{
-        width: 40%;
+        width: 30%;
+    }
+    .section-4-img{
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: 100% 90%;
+        padding: 20px 0px;
+    }
+        
+    .section-4-pad{
+        padding: 40px 80px;
+        color: white;
+        font-size: xx-small;
+    }
+
+    .section-4-btn{
+        font-size: xx-small;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        padding: 3px 16px;
     }
 }
 
@@ -438,6 +627,26 @@ select {
         background-size: auto 23px;
     }
 
+    .section-4-img{
+        background-image: url('images/background-image-seoplanetx-rectangle.png');
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: 100% 90%;
+        padding: 20px 0px;
+    }
+        
+    .section-4-pad{
+        padding: 40px 80px;
+        color: white;
+        font-size: xx-small;
+    }
+
+    .section-4-btn{
+        font-size: xx-small;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        padding: 3px 16px;
+    }
    
 }
 
@@ -537,7 +746,7 @@ select {
     }
 
     .aside-text-1{
-        font-size: 18pt;
+        font-size: 20px;
         font-weight: 600;
     }
 
@@ -545,58 +754,87 @@ select {
         font-size: 10px;
     }
 
+    .card-container{
+        padding: 30px;
+    }
+
     .card-head-text{
-        font-size: medium;
-    }
-
-    .cards-pg{
-        font-size: small;
-    }
-
-    .card-heading{
-        font-size: 15px;
+        font-size: larger;
     }
 
     .cards-style{
         border-radius: 30px;
-        height: 210px;
-        width: 400px;
+        height: 200px;
+        width: 300px;
         border: 0.5px solid black;
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
+
+    .cards-pg{
+        font-size: x-small;
+        padding-bottom: 30px;
+    }
+
+    .card-heading-1{
+        font-size: xx-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: xx-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
     }
 
     .card-img{
         width: 50%;
     }
     
+    .section-3-pad{
+        padding-top: 80px;
+        padding-bottom: 400px;
+    }
 
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 75%;
+        background-position: fixed;
     }
 
     .section-3-text{
         font-size: 20px;
-        font-weight: 100;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -11px;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
     .section-3-btn{
         border-radius: 60px;
-        padding: 5px;
+        padding: 8px 20px;
+        font-weight: 500;
+        font-size: medium;
         font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
+    .section-3-pad{
+        padding-top: 100px;
+        padding-bottom: 250px;
     }
 
     .section-4-img{
         background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 250px;
-        
+        background-position: fixed;
+        background-size: 100% auto;
+        padding: 50px 0px;
     }
     
     .section-4-pad{
-        padding: 80px 120px;
+        padding: 40px 120px;
         color: white;
         font-size: xx-small;
     }
@@ -856,22 +1094,43 @@ select {
         font-weight: bold;
     }
 
-    .aside-text-1{
-        font-size: 25pt;
-        font-weight: 600;
-    }
-
-    .aside-text-2{
-        font-size: 15px;
+    .card-container{
+        padding: 30px;
     }
 
     .card-head-text{
         font-size: larger;
     }
 
+    .cards-style{
+        border-radius: 30px;
+        height: 210px;
+        width: 300px;
+        border: 0.5px solid black;
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
 
     .cards-pg{
-        font-size: 12px;
+        font-size: x-small;
+        padding-bottom: 30px;
+    }
+
+    .card-heading-1{
+        font-size: xx-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: xx-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
+    .card-img{
+        width: 50%;
     }
 
     .testi-head-size{
@@ -891,18 +1150,21 @@ select {
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 70%;
+        background-position: fixed;
     }
 
     .section-3-text{
-        font-size: 30px;
-        font-weight: 100;
+        font-size: 25px;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -11px;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
     
     .section-3-btn{
         border-radius: 60px;
-        padding: 15px;
+        padding: 10px 22px;
+        font-weight: 500;
         font-size: large;
         font-family: 'Encode Sans Compressed', sans-serif;
     }
@@ -910,11 +1172,13 @@ select {
     .section-4-img{
         background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 200px;
+        background-position: fixed;
+        background-size: 100% auto;
+        padding: 150px 0px;
     }
     
     .section-4-pad{
-        padding: 50px 250px;
+        padding: 50px 150px;
         color: white;
         font-size: x-small;
     }
@@ -1007,11 +1271,37 @@ select {
         background-size: auto 50px;
     }
 
+    .aside-text-1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .aside-text-2{
+        font-size: 15px;
+    }
+
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 50%;
+        background-position: fixed;
     }
+
+    .section-3-text{
+        font-size: 30px;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -11px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 10px 22px;
+        font-weight: 500;
+        font-size: x-large;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
 
     #form-img{
         background-image: url('images/background-image-seoplanetx.png');
@@ -1033,20 +1323,35 @@ select {
     }
 
 
-    .cards-pg{
-        font-size: small;
-    }
-
-    .card-heading{
-        font-size: 12px;
-    }
-
     .cards-style{
         border-radius: 30px;
-        height: 210px;
+        height: 250px;
         width: 300px;
         border: 0.5px solid black;
         box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
+
+    .cards-pg{
+        font-size: small;
+        padding-bottom: 30px;
+    }
+
+    .card-heading-1{
+        font-size: x-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: x-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
+    .card-img{
+        width: 50%;
     }
 }
 
@@ -1064,17 +1369,98 @@ select {
         background-size: auto 50px;
     }
 
+    .aside-text-1{
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    .aside-text-2{
+        font-size: 18px;
+    }
+
+    .cards-style{
+        border-radius: 30px;
+        height: 250px;
+        width: 300px;
+        border: 0.5px solid black;
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
+
+    .cards-pg{
+        font-size: small;
+        padding-bottom: 30px;
+    }
+
+    .card-heading-1{
+        font-size: x-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: x-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
+    .card-img{
+        width: 50%;
+    }
+
+    .wrapper{
+        max-height: 50%;
+        overflow-x: auto;
+        margin-top: 100px;
+    }
+    
+    .wrapper::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    
+    .wrapper .item{
+        min-width:fit-content;
+        padding: 0px 30px;
+        line-height:50%;
+        margin-right: 5px;
+    }
+
+    .items-size{
+        height: auto;
+        width: auto;
+    }
     
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 60%;
+        background-position: fixed;
     }
+
+    .section-3-text{
+        font-size: 38px;
+        font-weight: 500;
+        padding-left: 0px;
+        margin: -11px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 10px 22px;
+        font-weight: 500;
+        font-size: x-large;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
 
     .section-4-img{
         background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 350px;
+        background-position: fixed;
+        background-size: 100% auto;
+        padding: 150px 0px;
     }
     
     .section-4-pad{
@@ -1091,22 +1477,6 @@ select {
     .footer-text-size{
         font-size: small;
     }
-}
-
-@media (min-width:1050px) {
-    .cards-pg{
-        font-size: medium;
-    }
-
-    .cards-style{
-        border-radius: 30px;
-        height: 250px;
-        width: 300px;
-        border: 0.5px solid black;
-        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
-    }
-
-    
 }
 
 @media (min-width:1100px) {
@@ -1136,6 +1506,39 @@ select {
     .footer-text-size{
         font-size: medium;
     }
+
+    .cards-style{
+        border-radius: 30px;
+        height: 250px;
+        width: 300px;
+        border: 0.5px solid black;
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.9);
+    }
+
+    .cards-pg{
+        font-size: small;
+        padding-bottom: 30px;
+    }
+
+    .card-heading-1{
+        font-size: x-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: x-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
+    }
+
+    .card-img{
+        width: 50%;
+    }
+
+
 }
 
 @media (min-width:1150px) {
@@ -1156,10 +1559,10 @@ select {
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 80%;
+        background-position: fixed;
     }
 }
-/* footer resp */
+
 @media (min-width:1200px) {
     .text-size {
         font-size: 50px;
@@ -1173,8 +1576,23 @@ select {
         background-position: 65% 40%;
         background-size: auto 50px;
     }
-
     
+    .section-3-text{
+        font-size: 38px;
+        font-weight: 500;
+        padding-left: 60px;
+        margin: -11px;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+    
+    .section-3-btn{
+        border-radius: 60px;
+        padding: 10px 22px;
+        font-weight: 500;
+        font-size: x-large;
+        font-family: 'Encode Sans Compressed', sans-serif;
+    }
+
 }
 
 @media (min-width:1250px) {
@@ -1195,7 +1613,7 @@ select {
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 50% ;
+        background-position: fixed;
     } 
 }
 
@@ -1225,16 +1643,24 @@ select {
     .section-3-img{
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
-        background-size: 100% 65%;
+        background-position: fixed;
+        padding-bottom:300px ;
     }
+
+    .card-head-text{
+        font-size: 40px;
+    }
+
 
     .section-4-img{
         background-image: url('images/background-image-seoplanetx-rectangle.png');
         background-repeat: no-repeat;
-        background-size: 100% 400px;
+        background-position: fixed;
+        background-size: 100% auto;
+        padding: 250px 0px;
     }
     .section-4-pad{
-        padding: 150px 250px;
+        padding: 100px 250px;
         color: white;
         font-size: medium;
     }
@@ -1253,18 +1679,51 @@ select {
     }
 
     .cards-pg{
-        font-size: medium;
+        font-size: small;
+        padding-bottom: 40px;
     }
 
-    .card-heading{
-        font-size: medium;
+    .card-heading-1{
+        font-size: x-small;
+        margin-bottom: 1px;
+    }
+
+    .card-heading-2{
+        font-size: x-small;
+        
+    }
+
+    .headings-pad{
+        margin-top: 20px;
     }
 
     .card-img{
         width: 50%;
     }
 
+    .wrapper{
+        max-height: 50%;
+        overflow-x: auto;
+        margin-top: 100px;
+    }
     
+    .wrapper::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    
+    .wrapper .item{
+        min-width:fit-content;
+        padding: 0px 30px;
+        line-height:50%;
+        margin-right: 5px;
+    }
+
+    .items-size{
+        height: auto;
+        width: auto;
+    }
+
     .hiring-btn{
         background-color: orangered;
         color: white;
@@ -1274,7 +1733,7 @@ select {
     }
     
     .footer-text-size{
-        font-size: medium;
+        font-size: small;
     }
 }
 
