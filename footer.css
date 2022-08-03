@@ -4,6 +4,8 @@ a{
     display: flex;
     align-items: stretch;
     font-size: small;
+    margin-bottom: -14px;
+    
 }
 
 .sect-5-addresses{
@@ -12,10 +14,12 @@ a{
 
 .sect-5-links-head{
     font-size: medium;
+    font-weight: bold;
 }
 
 .sect-5-address-head{
     font-size: medium;
+    font-weight: bold;
 }
 
 .sect-5-input{
@@ -23,7 +27,7 @@ a{
     border: 1px solid black;
     border-radius: 50px;
     padding: 10px 15px;
-    width: 250px;
+    width: 220px;
 }
 
 .sect-5-btn{
@@ -67,7 +71,11 @@ a{
 
 .sect-5-links-6{
     width: fit-content;
-    padding: 0px 10px;
+    padding: 0px 2px;
+}
+
+input[type=search]{
+    font-size: small;
 }
 
 @media (min-width:320px) {
@@ -300,14 +308,15 @@ a{
     } */
 }
 
-@media screen and (max-width:1330px) {
-    a{
+/* @media screen and (max-width:1330px) {
+     a{
         text-decoration: none;
         color: black;
         font-size: 12px;
         display: flex;
         align-items: stretch;
-    }
+        
+    } 
 
     .sect-5-addresses{
         font-size: small;
@@ -373,4 +382,4 @@ a{
     .sect-5-links-head{
         font-size:  medium;
     }
-}
+} */
