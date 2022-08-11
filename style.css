@@ -1338,6 +1338,7 @@ select {
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
         background-position: fixed;
+        padding-bottom: 250px;
     }
 
     .section-3-text{
@@ -1533,7 +1534,7 @@ select {
         background-repeat: no-repeat;
         background-position: fixed;
         background-size: 100% auto;
-        padding: 150px 0px;
+        padding: 200px 0px;
     }
     
     .section-4-pad{
@@ -1649,14 +1650,14 @@ select {
     }
 
     .aside-text-1{
-        font-size: 35px;
+        font-size: 39px;
         font-weight: 600;
         margin-top: -80px;
         margin-left: -95px;
     }
 
     .aside-text-2{
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 45px;
         margin-top: -20px;
     }
@@ -1789,7 +1790,7 @@ select {
         background-image: url('images/step-by-step.png');
         background-repeat: no-repeat;
         background-position: fixed;
-        padding-bottom:300px ;
+        
     }
 
     .section-3-text{
@@ -1797,6 +1798,7 @@ select {
         font-weight: 600;
         padding-left: 200px;
         margin: -11px;
+        
         font-family: 'Encode Sans Compressed', sans-serif;
     }
 
