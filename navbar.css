@@ -37,7 +37,7 @@ background: #FFF8E7;
   }
 
   .logo{
-    height: 60px;
+    height: 50px;
     width: 150px;
   }
 
@@ -55,6 +55,10 @@ background: #FFF8E7;
     .navbar-items {
         font-size: smaller;
     }
+    .logo{
+      height: 50px;
+      width: 150px;
+    }
   } 
 
   @media (min-width: 1120px){
@@ -71,3 +75,10 @@ background: #FFF8E7;
         font-size: medium;
     }
   } 
+
+  @media (min-width:1000px) {
+    .logo{
+      height: 50px;
+      width: 180px;
+    }
+  }
